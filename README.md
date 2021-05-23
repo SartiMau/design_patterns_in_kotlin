@@ -57,7 +57,7 @@ Use when:
 - Added functionality is required when an object is accessed.
 
 Structure:
-![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/abstract_factory.png.png?raw=true)
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/abstract_factory.png?raw=true)
 
 [Builder](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Builder.kt)
 -------------------
