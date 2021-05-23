@@ -48,6 +48,17 @@ Creational
 [Abstract Factory](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/AbstractFactory.kt)
 -------------------
 
+Provides an interface for creating families of related or dependent objects without specifying their concrete class.
+
+Use when:
+- The object being represented is external to the system. 
+- Objects need to be created on demand.
+- Access control for the original object is required.
+- Added functionality is required when an object is accessed.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/abstract_factory.png.png?raw=true)
+
 [Builder](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Builder.kt)
 -------------------
 
