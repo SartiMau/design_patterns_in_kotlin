@@ -62,6 +62,17 @@ Structure:
 [Builder](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Builder.kt)
 -------------------
 
+Separate the construction of a complex object from its representing so that the same construction process can create different representations.
+
+Use when:
+- Object creation algorithms should be decoupled from the system.
+- Multiple representations of creation algorithms are required.
+- The addition of new creation functionality without changing the core code is necessary.
+- Runtime control over the creation process is required.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/builder.png?raw=true)
+
 [Factory Method](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/FactoryMethod.kt)
 -------------------
 
