@@ -89,6 +89,16 @@ Structure:
 [Object Pool](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/ObjectPool.kt)
 -------------------
 
+Object pooling can offer a significant performance boost.
+
+Use when:
+- The cost of initializing a class instance is high.
+- The rate of instantiation of a class is high.
+- The number of instantiations in use at any one time is low.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/object_pool.png?raw=true)
+
 [Prototype](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Prototype.kt)
 -------------------
 
