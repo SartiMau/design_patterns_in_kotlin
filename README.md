@@ -76,6 +76,16 @@ Structure:
 [Factory Method](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/FactoryMethod.kt)
 -------------------
 
+Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer instantiation to subclasses.
+
+Use when:
+- A class will not know what classes it will be required to create.
+- Subclasses may specify what objects should be created.
+- Parent classes wish to defer creation to their subclasses.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/factory_method.png?raw=true)
+
 [Object Pool](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/ObjectPool.kt)
 -------------------
 
