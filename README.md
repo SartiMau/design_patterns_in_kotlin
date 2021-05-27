@@ -115,6 +115,15 @@ Structure:
 [Singleton](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Singleton.kt)
 -------------------
 	
+Ensure a class only has one instance and provide a global point of access to it.
+
+Use when:
+- Exactly one instance of a class is required.
+- Controlled access to a single object is necessary.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/singleton.png?raw=true)	
+	
 Structural
 ==========
 

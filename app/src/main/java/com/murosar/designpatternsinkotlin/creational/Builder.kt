@@ -90,7 +90,7 @@ internal class Waiter {
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
 /* A customer ordering a pizza. */
-class PizzaBuilderDemo {
+class BuilderClient {
 
     fun doSomething() {
         val waiter = Waiter()

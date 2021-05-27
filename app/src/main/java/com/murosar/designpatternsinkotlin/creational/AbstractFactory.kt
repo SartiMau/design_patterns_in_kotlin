@@ -74,7 +74,7 @@ enum class Architecture {
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
-class Client {
+class AbstractFactoryClient {
 
     fun doSomething() {
         val factory = AbstractFactory.getFactory(Architecture.EMBER)

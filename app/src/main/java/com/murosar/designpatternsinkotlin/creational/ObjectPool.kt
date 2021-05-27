@@ -109,7 +109,7 @@ class JDBCConnectionPool(driver: String, dsn: String, user: String, password: St
 }
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
-class Main {
+class ObjectPoolClient {
     fun doSomething() {
         // Do something...
 

@@ -74,7 +74,7 @@ class ReleasePrototype : Prototype {
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
-class PrototypeDemo {
+class PrototypeClient {
 
     fun doSomething(args: Array<String>) {
         if (args.isNotEmpty()) {
