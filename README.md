@@ -102,6 +102,16 @@ Structure:
 [Prototype](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Prototype.kt)
 -------------------
 
+Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+
+Use when:
+- A class will not know what classes it will be required to create.
+- Subclasses may specify what objects should be created.
+- Parent classes wish to defer creation to their subclasses.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/creational/prototype.png?raw=true)
+
 [Singleton](/app/src/main/java/com/murosar/designpatternsinkotlin/creational/Singleton.kt)
 -------------------
 	
