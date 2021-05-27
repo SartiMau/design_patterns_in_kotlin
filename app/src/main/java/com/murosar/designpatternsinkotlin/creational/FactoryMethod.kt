@@ -32,7 +32,7 @@ class DecodedImage(private val image: String) {
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
-class FactoryMethodDemo {
+class FactoryMethodClient {
 
     fun doSomething(image: String) {
         val decodedImage: DecodedImage
