@@ -134,6 +134,16 @@ Structural
 [Adapter](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Adapter.kt)
 -------------------
 
+Convert the interface of a class into another interface clients expect. Lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+Use when:
+- A class to be used doesn’t meet interface requirements.
+- Complex conditions tie object behavior to its state.
+- Transitions between states need to be explicit.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/adapter.png?raw=true)
+
 [Bridge](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Bridge.kt)
 -------------------
 
