@@ -147,6 +147,17 @@ Structure:
 [Bridge](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Bridge.kt)
 -------------------
 
+Decouple an abstraction from its implementation so that the two can vary independently.
+
+Use when:
+- Abstractions and implementations should not be bound at compile time.
+- Abstractions and implementations should be independently extensible.
+- Changes in the implementation of an abstraction should have no impact on clients.
+- Implementation details should be hidden from the client.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/bridge.png?raw=true)
+
 [Composite](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Composite.kt)
 -------------------
 
