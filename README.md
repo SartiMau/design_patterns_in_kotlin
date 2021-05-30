@@ -161,6 +161,15 @@ Structure:
 [Composite](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Composite.kt)
 -------------------
 
+Compose objects into tree structures to represent part-whole hierarchies. Lets clients treat individual objects and compositions of objects uniformly.
+
+Use when:
+- Hierarchical representations of objects are needed.
+- Objects and compositions of objects should be treated uniformly.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/composite.png?raw=true)
+
 [Decorator](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Decorator.kt)
 -------------------
 
