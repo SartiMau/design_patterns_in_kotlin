@@ -173,6 +173,18 @@ Structure:
 [Decorator](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Decorator.kt)
 -------------------
 
+Attach additional responsibilities to an object dynamically. Provide a flexible alternative to sub-classing for extending functionality.
+
+Use when:
+- Object responsibilities and behaviors should be dynamically modifiable.
+- Concrete implementations should be decoupled from responsibilities and behaviors.
+- Subclassing to achieve modification is impractical or impossible.
+- Specific functionality should not reside high in the object hierarchy.
+- A lot of little objects surrounding a concrete implementation is acceptable.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/decorator.png?raw=true)
+
 [Facade](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Facade.kt)
 -------------------
 
