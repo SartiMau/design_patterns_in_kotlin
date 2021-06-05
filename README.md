@@ -201,6 +201,17 @@ Structure:
 [Flyweight](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Flyweight.kt)
 -------------------
 
+Use sharing to support large numbers of fine-grained objects efficiently.
+
+Use when:
+- Many like objects are used and storage cost is high.
+- The majority of each object’s state can be made extrinsic.
+- A few shared objects can replace many unshared ones.
+- The identity of each object does not matter.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/flyweight.png?raw=true)
+
 [Private Class Data](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/PrivateClassData.kt)
 -------------------
 
