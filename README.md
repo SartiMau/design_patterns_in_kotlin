@@ -23,7 +23,7 @@ Project made by [Mauro Sarti](mailto:mauro.sarti@globant.com) as a mission from 
     * [Facade](#facade)
     * [Flyweight](#flyweight)
     * [Private Class Data](#private-class-data)
-    * [Protection Proxy](#protection-proxy)
+    * [Proxy](#proxy)
 * [Behavioral Patterns](#behavioral)
 	* [Chain of Responsibility](#chain-of-responsibility)
 	* [Command](#command)
