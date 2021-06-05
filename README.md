@@ -226,6 +226,17 @@ Structure:
 [Proxy](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Proxy.kt)
 -------------------	
 	
+Provide a surrogate or placeholder for another object to control access to it.
+
+Use when:
+- The object being represented is external to the system.
+- Objects need to be created on demand.
+- Access control for the original object is required.
+- Added functionality is required when an object is accessed.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/proxy.png?raw=true)
+	
 Behavioral
 ==========
 
