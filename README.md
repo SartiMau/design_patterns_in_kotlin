@@ -215,6 +215,14 @@ Structure:
 [Private Class Data](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/PrivateClassData.kt)
 -------------------
 
+Protect the class state by minimizing the visibility and manipulation of its attributes.
+
+Use when:
+- The attribute manipulation is no desirable after the construction
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/private_data_class.png?raw=true)
+
 [Proxy](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Proxy.kt)
 -------------------	
 	
