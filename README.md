@@ -188,6 +188,16 @@ Structure:
 [Facade](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Facade.kt)
 -------------------
 
+Provide a unified interface to a set of interfaces in a subsystem. Defines a high-level interface that makes the subsystem easier to use.
+
+Use when:
+- A simple interface is needed to provide access to a complex system.
+- There are many dependencies between system implementations and clients.
+- Systems and subsystems should be layered.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/facade.png?raw=true)
+
 [Flyweight](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/Flyweight.kt)
 -------------------
 
