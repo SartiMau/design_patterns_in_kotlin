@@ -218,7 +218,7 @@ Structure:
 Protect the class state by minimizing the visibility and manipulation of its attributes.
 
 Use when:
-- The attribute manipulation is no desirable after the construction
+- The attribute manipulation is no desirable after the construction.
 
 Structure:
 ![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/private_data_class.png?raw=true)
@@ -251,7 +251,7 @@ Avoid coupling the sender of a request to its receiver by giving more than one o
 
 Use when:
 - Multiple objects may handle a request and the handler doesn't have to be a specific object.
-- A set of objects should be able to handle a request with the handler determined at runtime
+- A set of objects should be able to handle a request with the handler determined at runtime.
 - A request not being handled is an acceptable potential outcome.
 
 Structure:
@@ -259,6 +259,17 @@ Structure:
 
 [Command](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Command.kt)
 -------------------
+
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+Use when:
+- You need callback functionality.
+- Requests need to be handled at variant times or in variant orders.
+- A history of requests is needed.
+- The invoker should be decoupled from the object handling the invocation.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/command.png?raw=true)
 
 [Interpreter](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Interpreter.kt)
 -------------------
