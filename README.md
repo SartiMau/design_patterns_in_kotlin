@@ -247,6 +247,16 @@ Behavioral
 [Chain of Responsibility](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/ChainOfResponsibility.kt)
 -------------------
 
+Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+
+Use when:
+- Multiple objects may handle a request and the handler doesn't have to be a specific object.
+- A set of objects should be able to handle a request with the handler determined at runtime
+- A request not being handled is an acceptable potential outcome.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/chain_of_responsability.png?raw=true)
+
 [Command](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Command.kt)
 -------------------
 
