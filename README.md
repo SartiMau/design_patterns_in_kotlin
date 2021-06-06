@@ -255,7 +255,7 @@ Use when:
 - A request not being handled is an acceptable potential outcome.
 
 Structure:
-![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/chain_of_responsability.png?raw=true)
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/chain_of_responsibility.png?raw=true)
 
 [Command](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Command.kt)
 -------------------
