@@ -274,6 +274,17 @@ Structure:
 [Interpreter](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Interpreter.kt)
 -------------------
 
+Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+
+Use when:
+- There is grammar to interpret that can be represented as large syntax trees.
+- The grammar is simple.
+- Efficiency is not important.
+- Decoupling grammar from underlying expressions is desired.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/interpreter.png?raw=true)
+
 [Iterator](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Iterator.kt)
 -------------------
 
