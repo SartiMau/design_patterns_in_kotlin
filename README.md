@@ -288,6 +288,17 @@ Structure:
 [Iterator](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Iterator.kt)
 -------------------
 
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+Use when:
+- Access to elements is needed without access to the entire representation.
+- Multiple or concurrent traversals of the elements are needed.
+- A uniform interface for traversal is needed.
+- Subtle differences exist between the implementation details of various iterators.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/iterator.png?raw=true)
+
 [Mediator](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Mediator.kt)
 -------------------
 
