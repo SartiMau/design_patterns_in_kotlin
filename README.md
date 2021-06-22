@@ -302,6 +302,15 @@ Structure:
 [Mediator](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Mediator.kt)
 -------------------
 
+Define an object that encapsulates how a set of objects interact. Promotes loose coupling by keeping objects from referring to each other explicitly and it lets you vary their interactions independently.
+
+Use when:
+- Communication between sets of objects is well defined and complex.
+- Too many relationships exist and common point of control or communication is needed.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/mediator.png?raw=true)
+
 [Memento](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Memento.kt)
 -------------------
 
