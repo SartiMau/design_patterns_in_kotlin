@@ -327,6 +327,16 @@ Structure:
 [Null Object](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/NullObject.kt)
 -------------------
 
+Encapsulate the absence of an object by providing a substitutable alternative that offers suitable default do nothing behavior. In short, a design where "nothing will come of nothing"
+
+Use when:
+- An object requires a collaborator. The Null Object pattern does not introduce this collaboration--it makes use of a collaboration that already exists
+- Some collaborator instances should do nothing
+- You want to abstract the handling of null away from the client
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/null_object.png?raw=true)
+
 [Observer](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Observer.kt)
 -------------------
 
