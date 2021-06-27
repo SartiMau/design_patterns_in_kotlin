@@ -314,6 +314,16 @@ Structure:
 [Memento](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Memento.kt)
 -------------------
 
+Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
+
+Use when:
+- The internal state of an object must be saved and restored at a later time.
+- Internal state cannot be exposed by interfaces without exposing implementation.
+- Encapsulation boundaries must be preserved.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/memento.png?raw=true)
+
 [Null Object](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/NullObject.kt)
 -------------------
 
