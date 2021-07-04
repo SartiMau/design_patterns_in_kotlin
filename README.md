@@ -366,6 +366,18 @@ Structure:
 [Strategy](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Strategy.kt)
 -------------------
 
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Lets the algorithm vary independently from clients that use it.
+
+Use when:
+- The only difference between many related classes is their behavior.
+- Multiple versions or variations of an algorithm are required.
+- Algorithms access or utilize data that calling code shouldn't be exposed to.
+- The behavior of a class should be defined at runtime.
+- Conditional statements are complex and hard to maintain.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/strategy.png?raw=true)
+
 [Template Method](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/TemplateMethod.kt)
 -------------------
 
