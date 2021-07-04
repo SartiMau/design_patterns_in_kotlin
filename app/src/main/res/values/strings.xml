@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Design patterns in Kotlin</string>
+
+    <string name="main_screen_message">To test any pattern just have to create a pattern\'s client instance and run the doSomething() method.</string>
+    <string name="main_screen_example">For example:\n\tval client = TemplateMethodClient()\n\tclient.doSomething()</string>
+
 </resources>
