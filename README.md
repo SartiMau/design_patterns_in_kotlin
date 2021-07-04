@@ -381,5 +381,16 @@ Structure:
 [Template Method](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/TemplateMethod.kt)
 -------------------
 
+Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+Use when:
+- A single abstract implementation of an algorithm is needed.
+- Common behavior among subclasses should be localized to a common class.
+- Parent classes should be able to uniformly invoke behavior in their subclasses.
+- Most or all subclasses need to implement the behavior.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/template_method.png?raw=true)
+
 [Visitor](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Visitor.kt)
 -------------------
