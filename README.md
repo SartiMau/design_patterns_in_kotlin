@@ -394,3 +394,15 @@ Structure:
 
 [Visitor](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Visitor.kt)
 -------------------
+
+Represent an operation to be performed on the elements of an object structure. Lets you define a new operation without changing the classes of the elements on which it operates.
+
+Use when:
+- An object structure must have many unrelated operations performed upon it.
+- The object structure can’t change but operations performed on it can.
+- Operations must be performed on the concrete classes of an object structure.
+- Exposing internal state or operations of the object structure is acceptable.
+- Operations should be able to operate on multiple object structures that implement the same interface sets.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/visitor.png?raw=true)
