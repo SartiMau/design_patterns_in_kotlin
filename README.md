@@ -353,6 +353,16 @@ Structure:
 [State](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/State.kt)
 -------------------
 
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+Use when:
+- The behavior of an object should be influenced by its state.
+- Complex conditions tie object behavior to its state.
+- Transitions between states need to be explicit.
+
+Structure:
+![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/behavioral/state.png?raw=true)
+
 [Strategy](/app/src/main/java/com/murosar/designpatternsinkotlin/behavioral/Strategy.kt)
 -------------------
 
