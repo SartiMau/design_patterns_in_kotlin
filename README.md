@@ -22,7 +22,7 @@ Project made by [Mauro Sarti](mailto:mauro.sarti@globant.com) as a mission from 
     * [Decorator](#decorator)
     * [Facade](#facade)
     * [Flyweight](#flyweight)
-    * [Private Class Data](#private-class-data)
+    * [Private Data Class](#private-data-class)
     * [Proxy](#proxy)
 * [Behavioral Patterns](#behavioral)
 	* [Chain of Responsibility](#chain-of-responsibility)
@@ -212,7 +212,7 @@ Use when:
 Structure:
 ![alt text](https://github.com/SartiMau/design_patterns_in_kotlin/blob/main/images/structural/flyweight.png?raw=true)
 
-[Private Class Data](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/PrivateClassData.kt)
+[Private Data Class](/app/src/main/java/com/murosar/designpatternsinkotlin/structural/PrivateDataClass.kt)
 -------------------
 
 Protect the class state by minimizing the visibility and manipulation of its attributes.
